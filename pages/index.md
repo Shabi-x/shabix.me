@@ -1,51 +1,57 @@
 ---
-title: Anthony Fu
-description: Anthony Fu's Portfolio
-image: https://antfu.me/og.png
+description: Shabix's Portfolio
 art: random
 ---
 
-Hey! I'm Anthony Fu, a fanatical open sourceror and design engineer.
+<Avatar />
 
-Working at {NuxtLabs} / {Vercel}<br>
-Creator of {Vitest} {Slidev} {VueUse} {UnoCSS} {Elk} {Type Challenges}<br>
-Core team of {Vue} {Nuxt} {Vite}<br>
-Maintaining {Shiki} {Twoslash} {ESLint Stylistic}
+Hi, I'm Shabix, a student at **Nanjing University of Post and Telecommunications**, majoring in **Software Engineering**.
 
-Dreaming up cool ideas and making them come true is where my passion lies. I am enthusiastic about building tools that help myself and others to be more productive and enjoy the process of crafting. You can find my [full projects list here](/projects).
+Working at {Qingyou} / {Tencent} / {Interactive Entertainment Group}<br>
 
-I give [talks](/talks) and write [blog posts](/posts) about open source, coding, etc.
-Occasionally, I do live coding streams on [YouTube](https://www.youtube.com/anthonyfu7) and [哔哩哔哩](https://space.bilibili.com/668380). I am also co-hosting a podcast [_No Coding Today_](https://bento.me/nocodingtoday) <span op75>(in Mandarin)</span>, talking about various topics around programming.
-From time to time, I make some generative-art, interactivity experiments on [100.antfu.me](https://100.antfu.me/).
+The current focus is on the **front-end**, including web and mini program development, based on **React** ecosystem. And now I am trying to improve my **back-end** skills and **algorithm** level.
 
-Outside of programming, I enjoy doing photography and traveling. I post [photos on this page](/photos). I also love anime, movies and dramas, I am trying to list my [media consumption](/media). Also, in case you are interested, here are the [hardware/software I use](/use).
+All my blog articles are recorded on {语雀}, I started maintaining the habit of recording personal articles from 2023 and welcome to visit!!!
 
-I recently <a href="/posts/hello-tokyo">moved to <ruby lang="ja">東京<rp>(</rp><rt>Tokyo</rt><rp>)</rp></ruby></a>, if you are around, please reach out and let's have some coffee or work together.
+---
+
+I am a teamMember of [Qingyou Studio](https://qingyou.njupt.edu.cn/). We are a group of students who are passionate about programming and sharing their knowledge. We are committed to creating high-quality, innovative, and impactful projects.
+
+---
+
+I am deeply passionate about frontend technologies, having gained valuable industry experience through frontend internships at **_Kuaishou_** in Beijing and **_Tencent_** in Shenzhen. I have accumulated extensive project experience and development skills, as well as modern frontend engineering capabilities, and gained knowledge about Tencent's gaming advertising business.
+
+Moreover, I have a strong interest in open-source projects and a passionate commitment to the open-source community.
 
 <div flex-auto />
 
 ---
 
-Find me on
+Find me on:
 
-<p flex="~ gap-2 wrap" class="mt--2!">
-  <a href="https://github.com/antfu" target="_blank"><span op75 i-simple-icons-github /> GitHub</a>
-  <a href="https://bsky.app/profile/antfu.me" target="_blank"><span op75 i-ri-bluesky-fill /> Bluesky</a>
-  <a href="https://www.threads.net/@antfu7" target="_blank"><span op75 i-ri-threads-line /> Threads</a>
-  <a href="https://chat.antfu.me" target="_blank"><span op75 i-simple-icons-discord /> Discord Server</a>
-  <a href="https://www.youtube.com/anthonyfu7" target="_blank"><span op75 i-simple-icons-youtube /> YouTube</a>
-  <a href="https://www.instagram.com/antfu7" target="_blank"><span op75 i-simple-icons-instagram /> Instagram</a>
-  <a href="https://space.bilibili.com/668380" target="_blank"><span op75 i-simple-icons-bilibili /> 哔哩哔哩</a>
-  <a href="https://x.com/antfuzh" target="_blank"><span op75 i-ri-twitter-x-fill /> 中文推</a>
-  <a href="https://x.com/antfujp" target="_blank"><span op75 i-ri-twitter-x-fill /> 日本語</a>
+<p me onp flex="~ gap-2 wrap" class="mt--2!">
+<a href="https://github.com/Shabi-x" target="_blank"><span op75 i-simple-icons-github /> GitHub</a>
+<a href="https://www.yuque.com/gududeyoubiaokachi-rl2tl" target="_blank">
+<svg op75 inline w-6 h-6 fill="currentColor" viewBox="0 0 1024 1024">
+<path d="M228.7 643.9c-0.1 0.1-0.2 0.3-0.3 0.4 3.9-4.4 8-9 12-13.5-7.5 8.4-11.7 13.1-11.7 13.1z" fill="#1590E9"/>
+<path d="M894 298.1l25.6-15.1c10.4-6.1 9.1-21.5-2.1-25.9l-12.3-4.8c-18-7.1-34.2-18.2-46.7-33-15.7-18.5-44.7-45.1-90.9-60.8-52.7-18-142.9-14.4-193.2-10.5-15.9 1.2-25 18.4-17.4 32.5 42.6 78.6 16.7 114.3-5.7 140.7-34.3 40.4-97.4 112.2-160.7 183.6 21.9-24.5 41.8-46.8 58.1-65.1 36.4-40.8 91.3-61.5 145.1-51.7 171.5 31.3 191 253.4-9.2 385.6 26.1-1.4 52.6-3.3 79.2-6 252.6-26 272.6-232.1 218-333.9-19.4-36.1-22.2-60.5-20.1-83.9 2-21.5 13.8-40.8 32.3-51.7z" fill="#99C236"/>
+<path d="M212.8 704.5C241.1 672.9 316 589 390.7 504.7c-54.6 61.2-121.8 136.7-177.9 199.8z" fill="#1590E9"/>
+<path d="M216.3 758.6c-19.5-2.5-28.2-25.6-15.5-40.6-51.7 58.3-91.7 103.5-99.1 112.6-24.1 29.5 247.7 97.9 482.6-56.8 0.1-0.1 0.3-0.2 0.4-0.3-156.5 8.2-298.5-5.9-368.4-14.9z" fill="#CAC134"/>
+<path d="M593.9 387.9c-53.8-9.8-108.7 10.9-145.1 51.7-16.3 18.2-36.2 40.5-58.1 65.1C316 589 241.1 672.9 212.8 704.5c-4.1 4.6-8.1 9.1-12 13.5-12.7 14.9-4 38 15.5 40.6 69.9 9 211.9 23.1 368.3 15 200.2-132.3 180.8-354.4 9.3-385.7z" fill="#029F40"/>
+</svg>
+语雀
+</a>
+<a href="https://space.bilibili.com/289168334?spm_id_from=333.1007.0.0" target="_blank"><span op75 i-simple-icons-bilibili /> 哔哩哔哩</a>
+
 </p>
 
-Or mail me at <span font-mono>hi<span i-carbon-at/>antfu.me</span>
+Contact me:
 
-<span op50>(</span> Inactive on <span flex="~ inline gap-2 wrap"><a href="https://elk.zone/m.webtoo.ls/@antfu" target="_blank"><span op75 i-simple-icons-mastodon/> Mastodon</a> <a href="https://x.com/antfu7" target="_blank"><span op75 i-ri-twitter-x-fill /> Twitter</a>
-<a href="https://www.zhihu.com/people/antfu" target="_blank"><span op75 i-simple-icons-zhihu /> 知乎</a>
-<a href="https://weibo.com/u/7485197193" target="_blank"><span op75 i-simple-icons-sinaweibo /> 微博</a></span> <span op50>)</span>
+<span op75 i-simple-icons-qq /> **QQ**: 2936670268
+
+<span op75 i-simple-icons-wechat /> **WeChat**: felsj_0618
+
+<span op50>(</span> You can also find me on <span flex="~ inline gap-2 wrap">
+<a href="https://qingyou.njupt.edu.cn/" target="_blank"><span op75 /> Qingyou Studio</a></span> <span op50>)</span>
 
 ---
-
-<SponsorButtons />

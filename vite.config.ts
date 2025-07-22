@@ -150,6 +150,15 @@ export default defineConfig({
             'Netlify': { link: 'https://netlify.com', imageUrl: 'https://github.com/netlify.png' },
             'Stackblitz': { link: 'https://stackblitz.com', imageUrl: 'https://github.com/stackblitz.png' },
             'Vercel': { link: 'https://vercel.com', imageUrl: 'https://github.com/vercel.png' },
+            'Tencent': { link: 'https://www.tencent.com', imageUrl: 'https://github.com/Tencent.png' },
+            'Qingyou': {
+              link: 'https://qingyou.njupt.edu.cn/',
+              imageUrl: '/public/qy.png',
+            },
+            'Interactive Entertainment Group': {
+              link: 'https://game.qq.com',
+              imageUrl: '/public/tencent-game.png',
+            },
           },
           imageOverrides: [
             ['https://github.com/vuejs/core', 'https://vuejs.org/logo.svg'],
