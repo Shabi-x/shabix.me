@@ -51,5 +51,3 @@ Contact me:
 
 <span op50>(</span> You can also find me on <span flex="~ inline gap-2 wrap">
 <a href="https://qingyou.njupt.edu.cn/" target="_blank"><span op75 /> Qingyou Studio</a></span> <span op50>)</span>
-
----
