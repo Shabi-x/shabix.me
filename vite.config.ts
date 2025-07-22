@@ -153,11 +153,11 @@ export default defineConfig({
             'Tencent': { link: 'https://www.tencent.com', imageUrl: 'https://github.com/Tencent.png' },
             'Qingyou': {
               link: 'https://qingyou.njupt.edu.cn/',
-              imageUrl: '/public/qy.png',
+              imageUrl: '/qy.png',
             },
             'Interactive Entertainment Group': {
               link: 'https://game.qq.com',
-              imageUrl: '/public/tencent-game.png',
+              imageUrl: '/tencent-game.png',
             },
           },
           imageOverrides: [
@@ -187,7 +187,7 @@ export default defineConfig({
               ? fs.copy(`${id.slice(0, -3)}.png`, `public/${path}`)
               : generateOg(frontmatter.title!.replace(/\s-\s.*$/, '').trim(), `public/${path}`),
           )
-          frontmatter.image = `https://antfu.me/${path}`
+          frontmatter.image = `https://me.shabix.fun/${path}`
         })()
         const head = defaults(frontmatter, options)
         return { head, frontmatter }

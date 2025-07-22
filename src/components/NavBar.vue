@@ -34,23 +34,18 @@ const { y: scroll } = useWindowScroll()
           <span class="lt-md:hidden">Blog</span>
           <div i-ri-article-line md:hidden />
         </RouterLink> -->
-        <RouterLink to="/" title="Me">
-          <span class="lt-md:hidden">About Me</span>
-          <div i-ri-lightbulb-line class="md:hidden" />
+        <RouterLink to="/" title="Me" class="lt-md:hidden">
+          <span>About Me</span>
         </RouterLink>
         <RouterLink to="/projects" title="Projects">
           <span class="lt-md:hidden">Projects</span>
-          <div i-ri-lightbulb-line class="md:hidden" />
+          <div i-ri-code-box-line class="md:hidden" />
         </RouterLink>
-        <RouterLink to="/photos" title="Photos">
+        <RouterLink to="/photos" title="Photos" class="lt-md:hidden">
           <div i-ri-camera-3-line />
-          <span class="lt-md:hidden"> Photos</span>
-          <div i-ri-lightbulb-line class="md:hidden" />
+          <span> Photos</span>
         </RouterLink>
-        <RouterLink to="/demos" title="Demos">
-          <div i-ri-screenshot-line />
-        </RouterLink>
-        <a href="https://github.com/antfu" target="_blank" title="GitHub" class="lt-md:hidden">
+        <a href="https://github.com/shabi-x" target="_blank" title="GitHub">
           <div i-uil-github-alt />
         </a>
         <ToggleTheme />

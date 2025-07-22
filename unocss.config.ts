@@ -41,6 +41,8 @@ export default defineConfig({
         mono: 'DM Mono',
         condensed: 'Roboto Condensed',
         wisper: 'Bad Script',
+        artistic: 'Playfair Display',
+        signature: 'Cedarville Cursive',
       },
       processors: createLocalFontProcessor(),
     }),

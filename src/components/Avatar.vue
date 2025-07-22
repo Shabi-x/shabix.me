@@ -70,6 +70,7 @@ onUnmounted(() => {
 .avatar-wrapper {
   border-radius: 999px;
   transition: opacity 3s;
+  flex-shrink: 0;
 }
 
 .avatar-image {
@@ -78,6 +79,7 @@ onUnmounted(() => {
   width: 85px;
   height: 85px;
   object-fit: cover;
+  flex-shrink: 0;
 }
 
 .avatar-container {
@@ -125,6 +127,18 @@ onUnmounted(() => {
   .avatar-container {
     gap: 10px;
     margin-left: 5px;
+  }
+
+  .avatar-image {
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+    min-height: 70px;
+  }
+
+  .avatar-wrapper {
+    min-width: 70px;
+    min-height: 70px;
   }
 }
 </style>
