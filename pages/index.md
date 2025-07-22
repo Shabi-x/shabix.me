@@ -17,7 +17,7 @@ All my blog articles are documented on **_[Yuque](https://www.yuque.com/gududeyo
 
 I'm passionate about frontend technologies and have gained valuable industry experience through internships at **_Kuaishou_** in Beijing and **_Tencent_** in Shenzhen. Through these experiences, I've developed extensive project expertise, modern frontend engineering skills, and insights into Tencent's gaming advertising ecosystem.
 
-For a deeper dive into my professional background, feel free to check out my resume: **_[https://resume.shabix.fun](https://resume.shabix.fun/)_ (best viewed on desktop)**
+For a deeper dive into my professional background, feel free to check out my resume: **_[https://resume.shabix.fun](https://resume.shabix.fun/)_**. (view it on PC is recommended)
 
 Beyond coding, I enjoy contributing to open-source projects, [my photography work](/photos), and following sports and esports competitions.
 
@@ -49,5 +49,4 @@ Contact me:
 
 <span op75 i-simple-icons-wechat /> **WeChat**: felsj_0618
 
-<span op50>(</span> You can also find me on <span flex="~ inline gap-2 wrap">
-<a href="https://qingyou.njupt.edu.cn/" target="_blank"><span op75 /> Qingyou Studio</a></span> <span op50>)</span>
+---
