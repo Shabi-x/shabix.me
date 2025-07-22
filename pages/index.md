@@ -5,23 +5,21 @@ art: random
 
 <Avatar />
 
-Hi, I'm Shabix, a student at **Nanjing University of Post and Telecommunications**, majoring in **Software Engineering**.
+Hi, I'm Shabix, a **Software Engineering** student at **Nanjing University of Post and Telecommunications**.
 
-Working at {Qingyou} / {Tencent} / {Interactive Entertainment Group}<br>
+Currently working at {Qingyou} / {Tencent} / {Interactive Entertainment Group}<br>
 
-The current focus is on the **front-end**, including web and mini program development, based on **React** ecosystem. And now I am trying to improve my **back-end** skills and **algorithm** level.
+My primary focus is on **front-end development**, including web and mini-program development within the **{React} / {Vue}** ecosystem. I'm also expanding my **back-end** service development skills, particularly using **{Nodejs}** to build servers and AI agent applications.
 
-All my blog articles are recorded on {语雀}, I started maintaining the habit of recording personal articles from 2023 and welcome to visit!!!
-
----
-
-I am a teamMember of [Qingyou Studio](https://qingyou.njupt.edu.cn/). We are a group of students who are passionate about programming and sharing their knowledge. We are committed to creating high-quality, innovative, and impactful projects.
+All my blog articles are documented on **_[Yuque](https://www.yuque.com/gududeyoubiaokachi-rl2tl)_**. I've been consistently writing and sharing technical insights since 2023 — feel free to explore!
 
 ---
 
-I am deeply passionate about frontend technologies, having gained valuable industry experience through frontend internships at **_Kuaishou_** in Beijing and **_Tencent_** in Shenzhen. I have accumulated extensive project experience and development skills, as well as modern frontend engineering capabilities, and gained knowledge about Tencent's gaming advertising business.
+I'm passionate about frontend technologies and have gained valuable industry experience through internships at **_Kuaishou_** in Beijing and **_Tencent_** in Shenzhen. Through these experiences, I've developed extensive project expertise, modern frontend engineering skills, and insights into Tencent's gaming advertising ecosystem.
 
-Moreover, I have a strong interest in open-source projects and a passionate commitment to the open-source community.
+For a deeper dive into my professional background, feel free to check out my resume: **_[https://resume.shabix.fun](https://resume.shabix.fun/)_ (best viewed on desktop)**
+
+Beyond coding, I enjoy contributing to open-source projects, [my photography work](/photos), and following sports and esports competitions.
 
 <div flex-auto />
 
