@@ -3,10 +3,15 @@ const route = useRoute()
 
 const imageModel = ref<HTMLImageElement>()
 const imageAlt = ref<string>()
+const originalImageSrc = ref<string>()
 
 function setImageModel(img: HTMLImageElement) {
   imageModel.value = img
   imageAlt.value = img.alt
+
+  // Use original image URL if available, otherwise use the current src
+  originalImageSrc.value = img.dataset.originalUrl || img.src
+
   const figure = img.closest('figure')
   if (figure) {
     const caption = figure.querySelector('figcaption')
@@ -82,7 +87,7 @@ onKeyStroke('Escape', (e) => {
   <Transition name="fade">
     <div v-if="imageModel" fixed top-0 left-0 right-0 bottom-0 z-500 backdrop-blur-7 @click="imageModel = undefined">
       <div absolute top-0 left-0 right-0 bottom-0 bg-black:50 z--1 />
-      <img :src="imageModel.src" :alt="imageModel.alt" :class="imageModel.className" max-w-screen max-h-screen w-full h-full object-contain>
+      <img :src="originalImageSrc" :alt="imageModel.alt" :class="imageModel.className" max-w-screen max-h-screen w-full h-full object-contain>
       <div v-if="imageAlt" text-white bg-black:50 absolute right-5 bottom-5 px2 py1 flex justify-center items-center>
         {{ imageAlt }}
       </div>

@@ -10,7 +10,8 @@
     "redirects": "tsx scripts/redirects.ts",
     "lint": "eslint .",
     "compress": "tsx scripts/img-compress-staged.ts",
-    "photos": "tsx scripts/photos-manage.ts",
+    "photos": "tsx scripts/photos-rename-and-compress.ts",
+    "photos-old": "tsx scripts/photos-manage.ts",
     "prepare": "simple-git-hooks"
   },
   "dependencies": {

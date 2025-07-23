@@ -14,6 +14,7 @@ defineProps<{
         :src="photo.url"
         :alt="photo.text"
         :data-photo-index="idx"
+        :data-original-url="photo.originalUrl"
         loading="lazy"
         w-full
         :class="view === 'contain' ? 'object-contain sm:aspect-square' : 'object-cover aspect-square'"

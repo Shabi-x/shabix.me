@@ -40,6 +40,7 @@ function handleWheel(e: WheelEvent) {
         :src="photo.url"
         :alt="photo.text"
         :data-photo-index="idx"
+        :data-original-url="photo.originalUrl"
         loading="lazy"
         w-full aspect-square object-cover
         w-80 h-80 max-w-80 max-h-80 min-w-80 min-h-80

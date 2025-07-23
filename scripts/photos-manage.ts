@@ -7,7 +7,8 @@ import { basename, join, parse } from 'pathe'
 import sharp from 'sharp'
 import { compressSharp } from './img-compress'
 
-const folder = fileURLToPath(new URL('../photos', import.meta.url))
+const originalFolder = fileURLToPath(new URL('../photos-original', import.meta.url))
+const compressedFolder = fileURLToPath(new URL('../photos-compressed', import.meta.url))
 
 const files = (await fg('**/*.{jpg,png,jpeg}', {
   caseSensitiveMatch: false,
@@ -20,7 +21,6 @@ for (const filepath of files) {
   if (basename(filepath).startsWith('p-')) {
     continue
   }
-  let writepath = filepath
   let { ext } = parse(filepath.toLowerCase())
   if (ext === '.jpeg')
     ext = '.jpg'
@@ -55,17 +55,27 @@ for (const filepath of files) {
 
   const base = `p-${date.toISOString().replace(/[:.a-z]+/gi, '-')}`
   let index = 1
-  while (existsSync(join(folder, `${base}${index}${ext}`.toLowerCase())))
+  while (existsSync(join(originalFolder, `${base}${index}${ext}`.toLowerCase())))
     index++
-  writepath = join(folder, `${base}${index}${ext}`.toLowerCase())
 
-  const { outBuffer, percent, outFile } = await compressSharp(img, buffer, filepath, writepath)
-  if (outFile !== filepath || percent > -0.10)
-    await fs.writeFile(outFile, outBuffer)
-  if (outFile !== filepath)
+  const filename = `${base}${index}${ext}`.toLowerCase()
+  const originalPath = join(originalFolder, filename)
+  const compressedPath = join(compressedFolder, filename)
+
+  // Save original image (renamed but not compressed) - just copy the original buffer
+  await fs.writeFile(originalPath, buffer)
+  console.log(`[ORIG] Saved original (no compression): ${originalPath}`)
+
+  // Generate and save compressed image
+  const { outBuffer, percent } = await compressSharp(img, buffer, filepath, compressedPath)
+  await fs.writeFile(compressedPath, outBuffer)
+  console.log(`[COMP] Saved compressed: ${compressedPath} (${(percent * 100).toFixed(1)}%)`)
+
+  // Remove original file from photos folder
+  if (filepath !== originalPath)
     await fs.unlink(filepath)
 
   if (title) {
-    await fs.writeFile(outFile.replace(/\.\w+$/, '.json'), JSON.stringify({ text: title }, null, 2))
+    await fs.writeFile(compressedPath.replace(/\.\w+$/, '.json'), JSON.stringify({ text: title }, null, 2))
   }
 }
