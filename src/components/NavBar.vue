@@ -38,12 +38,12 @@ const { y: scroll } = useWindowScroll()
           <span>About Me</span>
         </RouterLink>
         <RouterLink to="/projects" title="Projects">
+          <div i-ri-code-box-line />
           <span class="lt-md:hidden">Projects</span>
-          <div i-ri-code-box-line class="md:hidden" />
         </RouterLink>
-        <RouterLink to="/photos" title="Photos" class="lt-md:hidden">
+        <RouterLink to="/photos" title="Photos">
           <div i-ri-camera-3-line />
-          <span> Photos</span>
+          <span class="lt-md:hidden"> Photos</span>
         </RouterLink>
         <a href="https://github.com/shabi-x" target="_blank" title="GitHub">
           <div i-uil-github-alt />
