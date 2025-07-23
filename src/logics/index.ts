@@ -1,6 +1,8 @@
 import dayjs from 'dayjs'
 
-export const isDark = useDark()
+export const isDark = useDark({
+  initialValue: 'dark', // 默认为暗夜模式
+})
 export const englishOnly = useLocalStorage('antfu-english-only', false)
 export const gallaryView = useLocalStorage<'cover' | 'contain'>('antfu-gallery-view', 'cover')
 
