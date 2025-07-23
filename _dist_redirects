@@ -138,3 +138,6 @@
 /regex-doctor	https://github.com/antfu/regex-doctor	302
 /rehype-vue-sfc	https://github.com/antfu/rehype-vue-sfc	302
 /remark-xhtml	https://github.com/antfu/remark-xhtml	302
+
+# SPA fallback - must be last
+/*	/index.html	200
