@@ -1,6 +1,6 @@
 ---
-title: Photos - Anthony Fu
-description: Photos by Anthony Fu
+title: Photos - Shabix
+description: Photos by Shabix
 display: ''
 ---
 

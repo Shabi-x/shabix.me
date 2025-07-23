@@ -1,5 +1,5 @@
 ---
-title: Use - Anthony Fu
+title: Use - Shabix
 display: Use
 subtitle: Things I am using
 description: Things I am using
