@@ -1,5 +1,5 @@
 ---
-title: Web性能指标详解
+title: Web Vitals 详解
 description: 深入理解现代Web性能指标，包括Core Web Vitals、Waterfall分析和Performance API
 date: 2024-7-30T16:00:00.000+08:00
 lang: zh
