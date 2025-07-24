@@ -40,18 +40,6 @@ projects:
       link: 'https://github.com/Shabi-x/TypeWriterGames'
       desc: '打字测速小游戏'
       icon: 'i-logos-nuxt-icon saturate-0'
-    - name: 'Node Modules Inspector'
-      link: 'https://github.com/antfu/node-modules-inspector'
-      desc: 'Visualize and inspect your node_modules'
-      icon: 'i-solar-black-hole-line-duotone'
-    - name: 'ESLint Config Inspector'
-      link: 'https://github.com/eslint/config-inspector'
-      desc: 'A visual tool for inspecting and understanding your ESLint flat configs.'
-      icon: 'i-simple-icons:eslint'
-    - name: 'vite-plugin-inspect'
-      link: 'https://github.com/antfu/vite-plugin-inspect'
-      desc: 'Inspect the intermediate state of Vite plugins'
-      icon: 'i-carbon-search-locate'
 
 ---
 
