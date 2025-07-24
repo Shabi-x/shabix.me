@@ -23,6 +23,9 @@ declare module 'vue-router/auto-routes' {
     '/media': RouteRecordInfo<'/media', '/media', Record<never, never>, Record<never, never>>,
     '/notes': RouteRecordInfo<'/notes', '/notes', Record<never, never>, Record<never, never>>,
     '/photos': RouteRecordInfo<'/photos', '/photos', Record<never, never>, Record<never, never>>,
+    '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
+    '/posts/2023年度总结': RouteRecordInfo<'/posts/2023年度总结', '/posts/2023年度总结', Record<never, never>, Record<never, never>>,
+    '/posts/2024年度总结': RouteRecordInfo<'/posts/2024年度总结', '/posts/2024年度总结', Record<never, never>, Record<never, never>>,
     '/projects': RouteRecordInfo<'/projects', '/projects', Record<never, never>, Record<never, never>>,
     '/use': RouteRecordInfo<'/use', '/use', Record<never, never>, Record<never, never>>,
   }

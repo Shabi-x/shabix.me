@@ -138,7 +138,7 @@ const ArtComponent = computed(() => {
     <slot />
   </article>
   <div v-if="route.path !== '/'" class="prose m-auto mt-8 mb-8 slide-enter animate-delay-500 print:hidden">
-    <template v-if="frontmatter.duration">
+    <!-- <template v-if="frontmatter.duration">
       <span font-mono op50>> </span>
       <span op50>comment on </span>
       <a :href="blueskyUrl" target="_blank" op50>bluesky</a>
@@ -146,7 +146,7 @@ const ArtComponent = computed(() => {
       <a :href="elkUrl" target="_blank" op50>mastodon</a>
       <span op25> / </span>
       <a :href="tweetUrl" target="_blank" op50>twitter</a>
-    </template>
+    </template> -->
     <br>
     <span font-mono op50>> </span>
     <RouterLink

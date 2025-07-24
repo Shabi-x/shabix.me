@@ -1,13 +1,13 @@
 ---
-title: Notes - Shabix
-art: plum
+title: Blog - Shabix
 display: ''
+art: plum
 ---
 
 <SubNav />
 
-一些学习技术时的笔记
+技术之外，记录生活里的我;
 
 更多文章详见：[语雀 - 孤独的游标卡尺](https://www.yuque.com/gududeyoubiaokachi-rl2tl)
 
-<ListPosts only-date type="note" />
+<ListPosts only-date type="blog" />

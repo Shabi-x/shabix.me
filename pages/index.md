@@ -5,19 +5,17 @@ art: random
 
 <Avatar />
 
-Hi, I'm Shabix, a **Software Engineering** student at **Nanjing University of Post and Telecommunications**.
+Hi, I'm Liang Shaojun, a **Software Engineering** student at **Nanjing University of Post and Telecommunications**.
 
 Currently working at {Qingyou} / {Tencent} / {Interactive Entertainment Group}<br>
 
 My primary focus is on **front-end development**, including web and mini-program development within the **{React} / {Vue}** ecosystem. I'm also expanding my **back-end** service development skills, particularly using **{Nodejs}** to build servers and AI agent applications.
 
-All my blog articles are documented on **_[Yuque](https://www.yuque.com/gududeyoubiaokachi-rl2tl)_**. I've been consistently writing and sharing technical insights since 2023 — feel free to explore!
-
 ---
 
 I'm passionate about frontend technologies and have gained valuable industry experience through internships at **_Kuaishou_** in Beijing and **_Tencent_** in Shenzhen. Through these experiences, I've developed extensive project expertise, modern frontend engineering skills, and insights into Tencent's gaming advertising ecosystem.
 
-For a deeper dive into my professional background, feel free to check out my resume: **_[https://resume.shabix.fun](https://resume.shabix.fun/)_**. (view it on PC is recommended)
+For a further dive into my professional background and know who I am, please feel free to check out my resume: **[我的简历](https://resume.shabix.fun/)**. (view it on PC is recommended)
 
 Beyond coding, I enjoy contributing to open-source projects, [my photography work](/photos), and following sports and esports competitions.
 
