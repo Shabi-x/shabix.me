@@ -84,6 +84,10 @@ function slug(name: string) {
             <Vitest v-else-if="item.icon === 'vitest'" class="text-4xl opacity-50" />
             <Elk v-else-if="item.icon === 'elk'" class="text-4xl opacity-50" />
             <AnthonyFu v-else-if="item.icon === 'af'" class="text-4xl opacity-50" />
+            <img v-else-if="item.icon.startsWith('/') || item.icon.startsWith('http')"
+                 :src="item.icon"
+                 class="w-12 h-12 opacity-50 object-contain"
+                 :alt="item.name" />
             <div v-else class="text-3xl opacity-50" :class="item.icon || 'i-carbon-unknown'" />
           </div>
           <div class="flex-auto">
