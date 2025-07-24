@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { breakpointsTailwind } from '@vueuse/core'
-import { demoItems } from '../../demo/data'
+// Demo items removed - demo folder deleted
+const demoItems: any[] = []
 
 const breakpoints = useBreakpoints(breakpointsTailwind)
 
