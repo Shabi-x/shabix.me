@@ -9,7 +9,7 @@ function slug(name: string) {
 <template>
   <div class="max-w-300 mx-auto">
     <p text-center mt--6 mb5 op50 text-lg italic>
-      Projects that I created or maintaining.
+      Projects that I maintaining or contributing.
     </p>
     <div class="prose pb5 mx-auto mt10 text-center">
       <div flex="~ gap-2 justify-center">
@@ -84,10 +84,12 @@ function slug(name: string) {
             <Vitest v-else-if="item.icon === 'vitest'" class="text-4xl opacity-50" />
             <Elk v-else-if="item.icon === 'elk'" class="text-4xl opacity-50" />
             <AnthonyFu v-else-if="item.icon === 'af'" class="text-4xl opacity-50" />
-            <img v-else-if="item.icon.startsWith('/') || item.icon.startsWith('http')"
-                 :src="item.icon"
-                 class="w-12 h-12 opacity-50 object-contain"
-                 :alt="item.name" />
+            <img
+              v-else-if="item.icon.startsWith('/') || item.icon.startsWith('http')"
+              :src="item.icon"
+              class="w-12 h-12 opacity-50 object-contain"
+              :alt="item.name"
+            >
             <div v-else class="text-3xl opacity-50" :class="item.icon || 'i-carbon-unknown'" />
           </div>
           <div class="flex-auto">
@@ -96,13 +98,6 @@ function slug(name: string) {
           </div>
         </a>
       </div>
-    </div>
-    <div class="prose pb5 mx-auto mt10 text-center">
-      <div block mt-5>
-        <a href="https://antfu.me/stars-rank" target="_blank" op50>All projects sort by Stars</a>
-      </div>
-      <hr>
-      <SponsorButtons />
     </div>
   </div>
   <div>
