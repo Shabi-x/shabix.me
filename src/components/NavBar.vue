@@ -30,8 +30,8 @@ const { y: scroll } = useWindowScroll()
     <nav class="nav">
       <div class="spacer" />
       <div class="right" print:op0>
-        <RouterLink to="/posts" title="Blog">
-          <span class="lt-md:hidden">Blog</span>
+        <RouterLink to="/notes" title="Notes">
+          <span class="lt-md:hidden">Notes</span>
           <div i-ri-article-line md:hidden />
         </RouterLink>
         <RouterLink to="/" title="Me" class="lt-md:hidden">
