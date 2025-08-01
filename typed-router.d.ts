@@ -37,6 +37,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/2023年度总结': RouteRecordInfo<'/posts/2023年度总结', '/posts/2023年度总结', Record<never, never>, Record<never, never>>,
     '/posts/2024年度总结': RouteRecordInfo<'/posts/2024年度总结', '/posts/2024年度总结', Record<never, never>, Record<never, never>>,
     '/posts/工作中如何管理git账号': RouteRecordInfo<'/posts/工作中如何管理git账号', '/posts/工作中如何管理git账号', Record<never, never>, Record<never, never>>,
+    '/posts/神奇的插件Code Inspector是如何工作的？': RouteRecordInfo<'/posts/神奇的插件Code Inspector是如何工作的？', '/posts/神奇的插件Code Inspector是如何工作的？', Record<never, never>, Record<never, never>>,
     '/posts/Nestjs': RouteRecordInfo<'/posts/Nestjs', '/posts/Nestjs', Record<never, never>, Record<never, never>>,
     '/posts/web-performance-metrics': RouteRecordInfo<'/posts/web-performance-metrics', '/posts/web-performance-metrics', Record<never, never>, Record<never, never>>,
     '/projects': RouteRecordInfo<'/projects', '/projects', Record<never, never>, Record<never, never>>,
