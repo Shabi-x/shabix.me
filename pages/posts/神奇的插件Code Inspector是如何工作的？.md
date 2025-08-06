@@ -1,7 +1,7 @@
 ---
 title: 神奇的插件Code Inspector是如何工作的？
 description: 深入解析Code Inspector插件的工作原理，了解如何从DOM定位到源码位置
-date: 2025-01-12T16:00:00.000+08:00
+date: 2025-07-12T16:00:00.000+08:00
 lang: zh
 type: note
 duration: 12min
