@@ -15,7 +15,7 @@ My primary focus is on **front-end development**, including web and mini-program
 
 I'm passionate about frontend technologies and have gained valuable industry experience through internships at **_Kuaishou_** in Beijing and **_Tencent_** in Shenzhen. Through these experiences, I've developed extensive project expertise, modern frontend engineering skills, and insights into Tencent's gaming advertising ecosystem.
 
-For a further dive into my professional background and know who I am, please feel free to check out my resume: **[我的简历](https://resume.shabix.fun/)**. (view it on PC is recommended)
+<!-- For a further dive into my professional background and know who I am, please feel free to check out my resume: **[我的简历](https://resume.shabix.fun/)**. (view it on PC is recommended) -->
 
 Beyond coding, I enjoy contributing to open-source projects, [my photography work](/photos), and following sports and esports competitions.
 
