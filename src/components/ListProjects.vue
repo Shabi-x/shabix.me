@@ -14,7 +14,6 @@ function slug(name: string) {
     <div class="prose pb5 mx-auto mt10 text-center">
       <div flex="~ gap-2 justify-center">
         <a
-          href="https://github.com/antfu"
           target="_blank"
           class="group btn-blue inline-block"
         >
@@ -25,7 +24,6 @@ function slug(name: string) {
           GitHub
         </a>
         <a
-          href="https://releases.antfu.me"
           target="_blank"
           class="group btn-amber inline-block"
         >
@@ -36,7 +34,6 @@ function slug(name: string) {
           Recent Releases
         </a>
         <a
-          href="https://yak.antfu.me"
           target="_blank"
           class="group btn-lime inline-block"
         >
