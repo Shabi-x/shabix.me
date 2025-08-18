@@ -17,7 +17,7 @@ I'm passionate about frontend technologies and have gained valuable industry exp
 
 <!-- For a further dive into my professional background and know who I am, please feel free to check out my resume: **[我的简历](https://resume.shabix.fun/)**. (view it on PC is recommended) -->
 
-Beyond coding, I enjoy contributing to open-source projects, [my photography work](/photos), and following sports and esports competitions.
+Beyond coding, I have various hobbies including swimming, photography, and basketball. I occasionally follow traditional sports like NBA, Premier League, and UCL, as well as esports competitions such as Counter-Strike. During holidays, I enjoy capturing life moments through photography - you can check out some of my work [here](/photos). I'm constantly learning more about photography techniques and improving my LR editing skills.
 
 <div flex-auto />
 

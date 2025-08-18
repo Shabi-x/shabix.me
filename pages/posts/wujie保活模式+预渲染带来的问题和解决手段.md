@@ -1,11 +1,11 @@
----
+<!-- ---
 title: wujie保活模式+预渲染带来的问题与解决方案小结
 description: 深入解析Code Inspector插件的工作原理，了解如何从DOM定位到源码位置
 date: 2025-07-24T16:00:00.000+08:00
 lang: zh
 type: note
 duration: 22min
----
+--- -->
 
 # Wujie微前端在保活+预渲染模式中带来的问题和解决手段
 
