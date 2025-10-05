@@ -131,7 +131,7 @@ catalogs:
       specifier: ^6.0.1
       version: 6.0.1
     sharp:
-      specifier: 0.32.6
+      specifier: catalog:dev
       version: 0.32.6
     simple-git:
       specifier: ^3.28.0

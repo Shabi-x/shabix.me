@@ -45,7 +45,7 @@ catalogs:
     pnpm: ^10.13.1
     prompts: ^2.4.2
     rimraf: ^6.0.1
-    sharp: 0.32.6
+    sharp: catalog:dev
     simple-git: ^3.28.0
     simple-git-hooks: ^2.13.0
     tsx: ^4.20.3
