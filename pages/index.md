@@ -9,7 +9,7 @@ Hi, I'm Liang Shaojun, a **Software Engineering** student at **Nanjing Universit
 
 Currently working at {Qingyou} / {Tencent} / {Interactive Entertainment Group}<br>
 
-My primary focus is on **front-end development**, including web and mini-program development within the **{React} / {Vue}** ecosystem. I'm also expanding my **back-end** service development skills, particularly using **{Nodejs}** to build servers and AI agent applications.
+My primary focus is on **front-end development**, including web and mini-program development within the **{React} / {Vue}** ecosystem. I'm also expanding my **back-end** service development skills, particularly using **{Nodejs}**, **{Golang}**, and **operations knowledge** including **{Docker}**, **{Kubernetes}**, to strengthen my computer science fundamentals.
 
 ---
 
