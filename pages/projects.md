@@ -5,11 +5,7 @@ description: List of projects that I am proud of
 wrapperClass: 'text-center'
 art: dots
 projects:
-  Personal Explorations:
-    - name: 'TypeWriter Games'
-      link: 'https://github.com/Shabi-x/TypeWriterGames'
-      desc: '打字测速小游戏'
-      icon: 'i-mdi-keyboard-variant saturate-0'
+  Current Personal Explorations:
     - name: 'mini-coding-agent'
       link: 'https://github.com/Shabi-x/mini-coding-agent'
       desc: '一个简单的基于yo code的vibe coding vscode extension'
@@ -18,10 +14,10 @@ projects:
       link: 'https://github.com/Shabi-x/go-file-sync'
       desc: '一个基于go的文件同步工具'
       icon: 'i-logos-go saturate-0'
-    - name: 'MyResume'
-      link: 'https://github.com/Shabi-x/MyResume'
-      desc: '基于React搭建的个人求职简历预览'
-      icon: 'i-mdi-file-document-outline saturate-0'
+    - name: 'gohu'
+      link: 'https://github.com/Shabi-x/gohu'
+      desc: 'go 实现的一个知乎后端，使用微服务架构，分布式配置管理，分布式消息队列，CI-CD自动化部署'
+      icon: 'i-logos-go saturate-0'
 
   Previous Internships:
     - name: '大O2及广告类项目'
