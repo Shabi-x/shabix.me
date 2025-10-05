@@ -5,7 +5,25 @@ description: List of projects that I am proud of
 wrapperClass: 'text-center'
 art: dots
 projects:
-  Current Focus:
+  Personal Explorations:
+    - name: 'TypeWriter Games'
+      link: 'https://github.com/Shabi-x/TypeWriterGames'
+      desc: '打字测速小游戏'
+      icon: 'i-mdi-keyboard-variant saturate-0'
+    - name: 'mini-coding-agent'
+      link: 'https://github.com/Shabi-x/mini-coding-agent'
+      desc: '一个简单的基于yo code的vibe coding vscode extension'
+      icon: 'i-logos-visual-studio-code saturate-0'
+    - name: 'go-file-sync'
+      link: 'https://github.com/Shabi-x/go-file-sync'
+      desc: '一个基于go的文件同步工具'
+      icon: 'i-logos-go saturate-0'
+    - name: 'MyResume'
+      link: 'https://github.com/Shabi-x/MyResume'
+      desc: '基于React搭建的个人求职简历预览'
+      icon: 'i-mdi-file-document-outline saturate-0'
+
+  Previous Internships:
     - name: '大O2及广告类项目'
       link: 'https://o2.qq.com'
       desc: '腾讯游戏广告投放买量系统'
@@ -39,7 +57,19 @@ projects:
     - name: 'TypeWriter Games'
       link: 'https://github.com/Shabi-x/TypeWriterGames'
       desc: '打字测速小游戏'
-      icon: 'i-logos-nuxt-icon saturate-0'
+      icon: 'i-mdi-keyboard-variant saturate-0'
+    - name: 'mini-coding-agent'
+      link: 'https://github.com/Shabi-x/mini-coding-agent'
+      desc: '一个简单的基于yo code的vibe coding vscode extension'
+      icon: 'i-logos-visual-studio-code saturate-0'
+    - name: 'go-file-sync'
+      link: 'https://github.com/Shabi-x/go-file-sync'
+      desc: '一个基于go的文件同步工具'
+      icon: 'i-logos-go saturate-0'
+    - name: 'MyResume'
+      link: 'https://github.com/Shabi-x/MyResume'
+      desc: '基于React搭建的个人求职简历预览'
+      icon: 'i-mdi-file-document-outline saturate-0'
 
 ---
 

@@ -12,7 +12,7 @@ import LinkAttributes from 'markdown-it-link-attributes'
 import MarkdownItMagicLink from 'markdown-it-magic-link'
 // @ts-expect-error missing types
 import TOC from 'markdown-it-table-of-contents'
-import sharp from 'sharp'
+// import sharp from 'sharp'
 import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import IconsResolver from 'unplugin-icons/resolver'
@@ -268,7 +268,9 @@ async function generateOg(title: string, output: string) {
   }
   const svg = ogSVg.replace(/\{\{([^}]+)\}\}/g, (_, name) => data[name] || '')
 
-  console.log(`Generating ${output}`)
+  console.log(`Skipping og image generation for ${output} (sharp disabled)`)
+  // Temporarily disabled due to sharp installation issues
+  /*
   try {
     await sharp(Buffer.from(svg))
       .resize(1200 * 1.1, 630 * 1.1)
@@ -278,4 +280,5 @@ async function generateOg(title: string, output: string) {
   catch (e) {
     console.error('Failed to generate og image', e)
   }
+  */
 }
